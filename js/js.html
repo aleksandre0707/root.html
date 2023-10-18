@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <body style="text-align:center;">
+        <h1 style="color:green;">
+        <h3>
+            Click on button to change the 
+            background color
+        </h3>
+        <button onclick="myFunc()">
+            Click here
+        </button>
+        <h2 id="GFG" style="color:green;"></h2>
     <p id="demo"></p>;
    <p id="ricxvi"></p>;
 <script>
@@ -30,15 +40,23 @@
     let gvari="gvazava";
     let shedegi2
     shedegi2=saxeli+"_"+gvari;
-    console.log (shedegi2)
-    shedegi2="*"+saxeli+"&"+gvari+"*"
-    console.log (shedegi2)
-    shedegi2=ricxvi1+gvari
-    console.log(shedegi2)
+    console.log (shedegi2);
+    shedegi2="*"+saxeli+"&"+gvari+"*";
+    console.log (shedegi2);
+    shedegi2=ricxvi1+gvari;
+    console.log(shedegi2);
     //ამოცანა 5
-document.getElementById("demo").innerHTML = "Hello JavaScript!"
-document.getElementById("ricxvi").innerHTML = "222222222"
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+document.getElementById("ricxvi").innerHTML = "222222222";
 // ამოცანა 6
+ let result = document.getElementById("GFG");
+ function changeColor(color) {
+     document.body.style.background = color;
+ }
+ function myFunc() {
+     changeColor('yellow');
+     result.innerHTML = "Background Color changed";
+ }        
 </script>
 </html>
  </html>
