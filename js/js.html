@@ -1,66 +1,48 @@
 <!DOCTYPE html>
 <html>
     <body style="text-align:center;">
-        <h1 style="color:green;">
-        <h3>
-            Click on button to change the 
-            background color
-        </h3>
-        <button onclick="myFunc()">
-            Click here
-        </button>
-        <h2 id="GFG" style="color:green;"></h2>
-    <p id="demo"></p>;
-   <p id="ricxvi"></p>;
-<script>
-    let ricxvi1=5;
-    let ricxvi2=10;
-    let ricxvi3=15;
-    let ricxvi4=20;
-    let shedegi;
-    let temp;
-    //ამოცანა 1
-    shedegi=ricxvi1+ricxvi2;
-    console.log(shedegi);
-    //ამოცანა 2
-    shedegi=ricxvi1-ricxvi2;
-    console.log(shedegi);
-   // ამოცანა 3
-    shedegi=ricxvi1*ricxvi2;
-    console.log(shedegi);
-   // ამოცანა 4
-    shedegi=ricxvi1/ricxvi2;
-    console.log(shedegi);
-    //ამოცანა 5
-    temp=ricxvi1;
-    ricxvi1=ricxvi2;
-    ricxvi2=temp;
-    // ამოცანა 6
-    let saxeli="aleksandre";
-    let gvari="gvazava";
-    let shedegi2;
-    shedegi2=saxeli+gvari;
-    console.log (shedegi2);
-    //ამოცანა 7
-    shedegi2=saxeli+""+gvari;
-    //ამოცანა 8
-    shedegi2="*"+saxeli+"&"+gvari+"*";
-    console.log (shedegi2);
-    //ამოცანა 9
-    shedegi2=ricxvi1+gvari;
-    console.log(shedegi2);
-    //ამოცანა 10
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-document.getElementById("ricxvi").innerHTML = "222222222";
-
- let result = document.getElementById("GFG");
- function changeColor(color) {
-     document.body.style.background = color;
- }
- function myFunc() {
-     changeColor('yellow');
-     result.innerHTML = "Background Color changed";
- }        
-</script>
+        <label id="demo"></label>
+        <script>
+            let ricxvi1=5;
+            let ricxvi2=10;
+            let ricxvi3=15;
+            let ricxvi4=20;
+            let shedegi;
+            let temp;
+            //ამოცანა 1
+            shedegi=ricxvi1+ricxvi2;
+            console.log(shedegi);
+            //ამოცანა 2
+            shedegi=ricxvi1-ricxvi2;
+            console.log(shedegi);
+           // ამოცანა 3
+            shedegi=ricxvi1*ricxvi2;
+            console.log(shedegi);
+           // ამოცანა 4
+            shedegi=ricxvi1/ricxvi2;
+            console.log(shedegi);
+            //ამოცანა 5
+            temp=ricxvi1;
+            ricxvi1=ricxvi2;
+            ricxvi2=temp;
+            // ამოცანა 6
+            let saxeli="aleksandre";
+            let gvari="gvazava";
+            let shedegi2;
+            shedegi2=saxeli+gvari;
+            console.log(shedegi2);
+            //ამოცანა 7
+            shedegi2=saxeli+"_"+gvari;
+            console.log(shedegi2);
+            //ამოცანა 8
+            shedegi2="*"+saxeli+"&"+gvari+"*";
+            console.log(shedegi2);
+            //ამოცანა 9
+            shedegi2=ricxvi1+gvari;
+            console.log(shedegi2);
+            //ამოცანა 10
+            document.getElementById("demo").innerHTML = ricxvi1 + saxeli;
+        </script>
+    </body>
 </html>
  </html>
